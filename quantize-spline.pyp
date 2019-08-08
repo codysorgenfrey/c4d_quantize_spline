@@ -150,8 +150,6 @@ class connectiongridData(c4d.plugins.ObjectData):
         if not hClone['dirty']: return hClone['clone']
         if hClone['clone'] is None: return None
 
-        print hClone['clone'].GetPointCount()
-
         self.INPUT_SPLINE = hClone['clone']
         self.UPDATE = True
 
